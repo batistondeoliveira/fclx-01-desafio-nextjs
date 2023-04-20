@@ -6,32 +6,32 @@
 https://github.com/batistondeoliveira/fclx-01-desafio-nextjs
 ```
 
-**Passo 2:** Crie o arquivo .env a partir do .env.example
+**Passo 2:** Entre na pasta do projeto
 
-**Passo 3:** Execute o docker-compose
+**Passo 3:** Crie o arquivo .env a partir do .env.example
+
+**Passo 4:** Execute o docker-compose
 
 ```
 docker-compose up -d
 ```
 
-**Passo 4:** Entre no container app
+**Passo 5:** Entre no container app
 
 ```
-docker exec -it app bash
+docker exec -it fclx-01-desafio-nextjs_app_1 bash
 ```
 
-**Passo 5:** Instale as dependencias do node
+**Passo 6:** Instale as dependencias do node
 
 ```
 npm install
 ```
 
-**Passo 6:** Levante o servidor node
+**Passo 7:** Levante o servidor node
 
 ```
 npm run dev
 ```
 
-**Passo 7:** Execute a api a partir do arquivo api.http
-
-
+**Passo 8:** Execute a api a partir do arquivo api.http
