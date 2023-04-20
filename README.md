@@ -16,7 +16,7 @@ https://github.com/batistondeoliveira/fclx-01-desafio-nextjs
 docker-compose up -d
 ```
 
-**Passo 5:** Entre no container app
+**Passo 5:** Entre no container fclx-01-desafio-nextjs_app_1
 
 ```
 docker exec -it fclx-01-desafio-nextjs_app_1 bash
