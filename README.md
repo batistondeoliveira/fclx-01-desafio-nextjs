@@ -3,9 +3,9 @@
 Como executar a aplicação
 ------------
 
-Existe duas maneiras de executar o projeto, a **forma mais rápida** que você baixa apenas a imagem e faz as requisições html ou a **forma mais demorada** que você baixa o projeto na sua máquina. Abaixo segue as duas formas para você escolher a melhor.
+Existe duas maneiras de executar o projeto, **com docker** que você baixa apenas a imagem e faz as requisições html ou **sem docker** que você baixa o projeto na sua máquina. Abaixo segue as duas formas para você escolher a melhor.
 
-# Forma mais rápida
+# Com Docker
 
 **Passo 1:** Clone o projeto
 
@@ -31,7 +31,7 @@ docker run -it -d -p3000:3000 batistondeoliveira/desafio-nextjs
 
 **OBSERVAÇÃO:** Você precisa da extensão Rest Client para executar o arquivo api.http dentro do VSCode
 
-# Forma mais demorada
+# Sem Docker
 
 **Passo 1:** Clone o projeto
 
